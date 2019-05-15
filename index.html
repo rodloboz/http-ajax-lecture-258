@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Playground - JavaScript 101</title>
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <p style="margin-top: 40vh; text-align: center; font: normal 24px monospace;">
+    </p>
+
+    <!-- Add some HTML in here -->
+    <!-- button id="home-btn">Click me!</button> -->
+
+    <form action="/search" id="search-movies" class="form-inline">
+      <input id="keyword" type="text" class="form-control ml-auto mr-2" placeholder="Find movies">
+      <input type="submit" class="btn btn-primary mr-auto ml-2" value="Search">
+    </form>
+    <div class="container text-center">
+      <ul id="movies" class="list-inline"></ul>
+    </div>
+
+    <div id="my-list"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
